@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(MenuLedda.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+.nav-bar{
+    display: flex;
+    padding: 10px 12px;
+}
+
+.nav-logo img {
+    width: 135px;
+    
+    
+}
+
+.nav-links {
+    flex: 1;
+}
+
+.nav-links ul {
+    margin-left: 50px;
+    display: inline;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+    
+}
+
+.nav-links ul  a {
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:#9D9F9E;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100% ;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background:#9D9F9E;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links .btn{
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+.banner-title{
+    margin: 80px 130px;
+    color: whitesmoke;
+
+}
+
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.banner-title h1 span{
+    color:#9D9F9E;
+}
+
+.banner-title h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.banner-title h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner-title p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.banner-title .adres{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+.orderqr h2{
+    color:#9D9F9E;
+    text-align: center;
+}
+
+.qrcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+
+.vertical-bar{
+    height: 100%;
+    background:black;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.list-icon{
+    height: 60%;
+    width: 80px;
+}
+
+.list-icon .fa{
+    margin: 45px 23px;
+    display: block;
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.social-icons{
+    height: 35%;
+    width: 80px;
+    background:#9D9F9E;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;   
+
+}
+
+.social-icons .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-bar .fa{
+    display: none;
+}
+
+
+
+@media(max-width: 700px) {
+
+    
+    .orderqr{
+        display: none;
+    }
+    .vertical-bar{
+        display: none;
+
+    }
+
+    .banner-title{
+        margin: 80px 40 px;
+        
+    }
+
+    .banner-title h1{
+        font-size: 25px;
+        margin-top: -45px;
+    }
+
+    .banner-title h2{
+        font-size: 20px;
+        margin-left: -15px;
+    }
+
+    .banner-title p{
+        font-size: 11px;
+    }
+
+    .banner-title .adres{
+        margin-top: -25px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;       
+
+    }
+
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+        
+    }
+
+    .nav-links{
+        height: 100vh;
+        width: 200px;
+        background: black;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        
+    }
+
+    .nav-links ul a{
+        display: block;
+        margin-top: 25px;
+    }
+
+    .nav-links .btn{
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .nav-link .fa{
+        color:#9D9F9E;
+    }
+
+   
+}
+
