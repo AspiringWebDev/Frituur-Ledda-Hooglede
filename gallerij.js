@@ -7,3 +7,8 @@ var show = document.getElementById("nav-links");
     function hideMenu(){
         show.style.right = "-200px";       
     }
+
+
+
+
+    
