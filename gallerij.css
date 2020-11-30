@@ -147,6 +147,11 @@
     right: -30px;
   }
 
+  .copyright-text {
+    text-align: center;
+    margin-top: 150px;
+}
+
 
 
 
@@ -254,6 +259,8 @@
     .nav-link .fa{
         color:#9D9F9E;
     }
+
+    
 
    
 }
