@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
     <link rel="stylesheet" href="gallerij.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Frituur Ledda Hooglede</title>
@@ -17,10 +19,10 @@
                 <i class="fa fa-close" onclick="hideMenu()" aria-hidden="true"></i>
                 <ul>
                     <a href="index.html"><li>Home</li></a>
-                    <a href="menu.html"><li>Menu</li></a>                    
+                    <a href="menu.html"><li>Bestellen</li></a>                    
                     <a href="gallerij.html"><li>Gallerij</li></a>                   
                 </ul>
-                <button type="button" class="btn">Geen QR-App?</button>
+                
             </div>
             <i class="fa fa-bars" onclick="showMenu()" aria-hidden="true"></i>
 
@@ -29,11 +31,24 @@
             <h1>Frituur <span>Ledda</span> Gallerij</h1>
             <p class="adres">Ieperstraat 21, 8830 Hooglede<br>Tel:051/811.410 </p>              
     </div>
+    <div class="carousel-wrap">
+        <div class="owl-carousel">
+          <div class="item"><img src="interieurLedda150.jpg"></div>
+          <div class="item"><img src="InterieurLedda2150.jpg"></div>
+          <div class="item"><img src="ToonbankLedda150.jpg"></div>
+          <div class="item"><img src="ToonbankLedda1150.jpg"></div>
+          <div class="item"><img src="VensterLedda150.jpg"></div>
+          <div class="item"><img src="MenuLedda150.jpg"></div>
+          
+        </div>
+      </div>
+    
     
     
     
    
-
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>    
     <script src="gallerij.js"></script>
 </body>
 </html>
