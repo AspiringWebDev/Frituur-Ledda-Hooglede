@@ -65,7 +65,13 @@
     padding: 10px 20px;
     border: 0;
     background:#9D9F9E;
-    font-weight: bold;
+    color:whitesmoke;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina';
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
     cursor: pointer;
 }
 
@@ -189,7 +195,10 @@
     }
     .vertical-bar{
         display: none;
+    }
 
+    .btn{
+        font-size: 10px;
     }
 
     .banner-title{

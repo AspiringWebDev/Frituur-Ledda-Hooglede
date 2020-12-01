@@ -65,7 +65,13 @@
     padding: 10px 20px;
     border: 0;
     background:#9D9F9E;
-    font-weight: bold;
+    color:whitesmoke;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina';
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
     cursor: pointer;
 }
 
@@ -281,6 +287,10 @@
         
         
     }
+
+    .btn{
+        font-size: 10px;
+    }
     
     .banner-title{
         margin: 80px 40 px;
@@ -331,9 +341,15 @@
         right: -200px;
         position: absolute;
         text-align: left;
-        z-index: 2;
-        
     }
+        
+        
+        
+     @media (max-width: 700px){
+            .btn {
+                font-size: 10px;
+            }
+        
 
     .nav-links ul a{
         display: block;
@@ -350,8 +366,11 @@
         color:#9D9F9E;
     }
 
+
+    
+
    
-}
+
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -365,4 +384,3 @@ and (-webkit-min-device-pixel-ratio: 1){
     }
 
 }
-
